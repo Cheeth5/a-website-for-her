@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated CSS Mail Button</title>
+  <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+<!-- Partial for the animated mail -->
+<div class="letter-image" onclick="redirectToNewPage()">
+  <div class="animated-mail">
+    <div class="back-fold"></div>
+    <div class="letter">
+      <div class="letter-border"></div>
+      <div class="letter-title"></div>
+      <div class="letter-context"></div>
+      <div class="letter-stamp">
+        <div class="letter-stamp-inner"></div>
+      </div>
+    </div>
+    <div class="top-fold"></div>
+    <div class="body"></div>
+    <div class="left-fold"></div>
+  </div>
+  <div class="shadow"></div>
+</div>
+
+<script>
+  // Function to redirect to another page
+  function redirectToNewPage() {
+    window.location.href = "final.html";  // Change to the URL of your desired page
+  }
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</body>
+</html>
